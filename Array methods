@@ -1,0 +1,14 @@
+import java.util.Arrays;
+
+
+methods:
+
+Arrays.toString();
+Arrays.sort();
+Arrays.fill(array,element);
+Arrays.copyof(array,noOfElemntstoCopy);//to copy elemets of one array into another.
+Arrays.copyofRange(array,fromindex,toindex);
+
+
+
+
