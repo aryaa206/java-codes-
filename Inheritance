@@ -11,16 +11,20 @@ class Main {
         
     }
 }
-class Bike extends Vehicle
-{
-    public void run()
-        {
-          System.out.println("the Bike is running.......");  
-        }
-}
 class Vehicle{
     public void run()
         {
           System.out.println("the vehicle is running.......");  
         }
 }
+
+class Bike extends Vehicle
+{   
+    @Override
+    public void run()
+        {
+          super.run();
+          System.out.println("the Bike is running.......");  
+        }
+}
+
