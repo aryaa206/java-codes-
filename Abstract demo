@@ -1,0 +1,28 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        Vehicle veh=new Bike();
+        veh.run();
+        
+    }
+}
+abstract class Vehicle{
+   abstract public void run();
+        
+}
+
+class Bike extends Vehicle
+{   
+   
+    public void run()
+        {
+          
+          System.out.println("the Bike is running.......");  
+        }
+}
+
